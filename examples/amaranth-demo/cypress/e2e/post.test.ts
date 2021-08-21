@@ -78,11 +78,11 @@ describe(`Post page`, () => {
       // Make sure it contains author's profile links
       cy.findByRole("link", { name: "Twitter Profile", container })
         .closest("a")
-        .should("have.attr", "href", "https://twitter.com/Vagr9K");
+        .should("have.attr", "href", "https://twitter.com/JustJordanT");
 
       cy.findByRole("link", { name: "GitHub Profile", container })
         .closest("a")
-        .should("have.attr", "href", "https://github.com/vagr9k");
+        .should("have.attr", "href", "https://github.com/JustJordanT");
 
       cy.findByRole("link", { name: "LinkedIn Profile", container })
         .closest("a")
@@ -94,7 +94,7 @@ describe(`Post page`, () => {
 
       cy.findByRole("link", { name: "E-Mail", container })
         .closest("a")
-        .should("have.attr", "href", "mailto:AdvancedUser@example.com");
+        .should("have.attr", "href", "mailto:JordanTay9014@outlook.com");
     });
   });
 

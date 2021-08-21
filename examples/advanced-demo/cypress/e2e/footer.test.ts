@@ -13,23 +13,23 @@ footerTestPages.forEach((url) => {
       cy.get("@footer").then((container) => {
         cy.findByRole("link", { name: "Twitter", container })
           .closest("a")
-          .should("have.attr", "href", "https://twitter.com/Vagr9K");
+          .should("have.attr", "href", "https://twitter.com/JustJordanT");
 
         cy.findByRole("link", { name: "GitHub", container })
           .closest("a")
-          .should("have.attr", "href", "https://github.com/vagr9k");
+          .should("have.attr", "href", "https://github.com/JustJordanT");
 
         cy.findByRole("link", { name: "LinkedIn", container })
           .closest("a")
           .should(
             "have.attr",
             "href",
-            "https://www.linkedin.com/in/your-linkedin"
+            "https://www.linkedin.com/in/justjordant/"
           );
 
         cy.findByRole("link", { name: "Email", container })
           .closest("a")
-          .should("have.attr", "href", "mailto:AdvancedUser@example.com");
+          .should("have.attr", "href", "mailto:JordanTay9014@outlook.com");
       });
     });
 
@@ -48,13 +48,13 @@ footerTestPages.forEach((url) => {
           .should(
             "have.attr",
             "href",
-            "https://github.com/Vagr9K/gatsby-advanced-starter"
+            "https://github.com/JustJordanT/gatsby-advanced-starter"
           );
       });
 
       it("has a copyright notice", () => {
         cy.get("@footer").then((container) => {
-          cy.findByText("© Copyright 2021 | Ruben Harutyunyan", {
+          cy.findByText("© Copyright 2021 | Jordan Taylor", {
             container,
           });
         });

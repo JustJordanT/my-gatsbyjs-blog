@@ -17,7 +17,7 @@ const Footer = (): JSX.Element => {
       <div className="info">
         <p>
           Based on{" "}
-          <Link to="https://github.com/Vagr9K/gatsby-advanced-starter">
+          <Link to="https://github.com/JustJordanT/gatsby-advanced-starter">
             Gatsby Advanced Starter
           </Link>
         </p>

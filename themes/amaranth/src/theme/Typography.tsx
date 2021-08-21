@@ -5,7 +5,7 @@ import { createGlobalStyle, css } from "styled-components";
 import { breakpoints } from "./Constants";
 
 const MobileH1 = css`
-  font-family: "Alfa Slab One", serif;
+  font-family: "JetBrains Mono", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 32px;
@@ -14,7 +14,7 @@ const MobileH1 = css`
 `;
 
 const MobileH2 = css`
-  font-family: "Alfa Slab One", serif;
+  font-family: "JetBrains Mono", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 29px;
@@ -22,7 +22,7 @@ const MobileH2 = css`
   letter-spacing: 0px;
 `;
 const MobileH3 = css`
-  font-family: "Alfa Slab One", serif;
+  font-family: "JetBrains Mono", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 26px;
@@ -30,7 +30,7 @@ const MobileH3 = css`
   letter-spacing: 0.15px;
 `;
 const MobileH4 = css`
-  font-family: "Alfa Slab One", serif;
+  font-family: "JetBrains Mono", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 23px;
@@ -38,7 +38,7 @@ const MobileH4 = css`
   letter-spacing: 0.25px;
 `;
 const MobileH5 = css`
-  font-family: "Alfa Slab One", serif;
+  font-family: "JetBrains Mono", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -46,7 +46,7 @@ const MobileH5 = css`
   letter-spacing: 0.35px;
 `;
 const MobileH6 = css`
-  font-family: "Alfa Slab One", serif;
+  font-family: "JetBrains Mono", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -55,7 +55,7 @@ const MobileH6 = css`
 `;
 
 const MobileBody = css`
-  font-family: "Fira Sans", sans-serif;
+  font-family: "JetBrains Mono", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -64,7 +64,7 @@ const MobileBody = css`
 `;
 
 const MobileCaption = css`
-  font-family: "Fira Sans", sans-serif;
+  font-family: "JetBrains Mono", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -73,7 +73,7 @@ const MobileCaption = css`
 `;
 
 const MobileOverline = css`
-  font-family: "Fira Sans", sans-serif;
+  font-family: "JetBrains Mono", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 10px;
@@ -89,7 +89,7 @@ const MobileCode = css`
 `;
 
 const DesktopH1 = css`
-  font-family: "Alfa Slab One", serif;
+  font-family: "JetBrains Mono", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 47px;
@@ -97,14 +97,14 @@ const DesktopH1 = css`
 `;
 
 const DesktopH2 = css`
-  font-family: "Alfa Slab One", serif;
+  font-family: "JetBrains Mono", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 39px;
   line-height: 48px;
 `;
 const DesktopH3 = css`
-  font-family: "Alfa Slab One", serif;
+  font-family: "JetBrains Mono", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 33px;
@@ -112,7 +112,7 @@ const DesktopH3 = css`
   letter-spacing: 0.15px;
 `;
 const DesktopH4 = css`
-  font-family: "Alfa Slab One", serif;
+  font-family: "JetBrains Mono", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 27px;
@@ -120,7 +120,7 @@ const DesktopH4 = css`
   letter-spacing: 0.25px;
 `;
 const DesktopH5 = css`
-  font-family: "Alfa Slab One", serif;
+  font-family: "JetBrains Mono", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 23px;
@@ -128,7 +128,7 @@ const DesktopH5 = css`
   letter-spacing: 0.35px;
 `;
 const DesktopH6 = css`
-  font-family: "Alfa Slab One", serif;
+  font-family: "JetBrains Mono", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 19px;
@@ -137,7 +137,7 @@ const DesktopH6 = css`
 `;
 
 const DesktopBody = css`
-  font-family: "Fira Sans", sans-serif;
+  font-family: "JetBrains Mono", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -146,7 +146,7 @@ const DesktopBody = css`
 `;
 
 const DesktopCaption = css`
-  font-family: "Fira Sans", sans-serif;
+  font-family: "JetBrains Mono", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -155,7 +155,7 @@ const DesktopCaption = css`
 `;
 
 const DesktopOverline = css`
-  font-family: "Fira Sans", sans-serif;
+  font-family: "JetBrains Mono", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -172,76 +172,76 @@ const DesktopCode = css`
 
 const H1Style = css`
   ${MobileH1}
-  @media (min-width: ${breakpoints.sm}) {
+  @media;(min-width: ${breakpoints.sm}) {
     ${DesktopH1}
   }
 `;
 
 const H2Style = css`
   ${MobileH2}
-  @media (min-width: ${breakpoints.sm}) {
+  @media;(min-width: ${breakpoints.sm}) {
     ${DesktopH2}
   }
 `;
 
 const H3Style = css`
   ${MobileH3}
-  @media (min-width: ${breakpoints.sm}) {
+  @media;(min-width: ${breakpoints.sm}) {
     ${DesktopH3}
   }
 `;
 
 const H4Style = css`
   ${MobileH4}
-  @media (min-width: ${breakpoints.sm}) {
+  @media;(min-width: ${breakpoints.sm}) {
     ${DesktopH4}
   }
 `;
 
 const H5Style = css`
   ${MobileH5}
-  @media (min-width: ${breakpoints.sm}) {
+  @media;(min-width: ${breakpoints.sm}) {
     ${DesktopH5}
   }
 `;
 
 const H6Style = css`
   ${MobileH6}
-  @media (min-width: ${breakpoints.sm}) {
+  @media;(min-width: ${breakpoints.sm}) {
     ${DesktopH6}
   }
 `;
 
 const BodyStyle = css`
   ${MobileBody}
-  @media (min-width: ${breakpoints.sm}) {
+  @media;(min-width: ${breakpoints.sm}) {
     ${DesktopBody}
   }
 `;
 
 const CaptionStyle = css`
   ${MobileCaption}
-  @media (min-width: ${breakpoints.sm}) {
+  @media;(min-width: ${breakpoints.sm}) {
     ${DesktopCaption}
   }
 `;
 
 const OverlineStyle = css`
   ${MobileOverline}
-  @media (min-width: ${breakpoints.sm}) {
+  @media;(min-width: ${breakpoints.sm}) {
     ${DesktopOverline}
   }
 `;
 
 const CodeStyle = css`
   ${MobileCode}
-  @media (min-width: ${breakpoints.sm}) {
+  @media;(min-width: ${breakpoints.sm}) {
     ${DesktopCode}
   }
 `;
 
 const ButtonLabelStyle = css`
-  font-family: "Fira Sans", sans-serif;
+  font-family: "JetBrains Mono", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;

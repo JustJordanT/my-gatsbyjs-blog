@@ -88,11 +88,11 @@ export const sampleSeoData: {
     language: "en",
     logoUrl: "/logos/logo-1024.png", // Logo used for SEO and manifest
     fbAppId: "1825356251115265", // FB Application ID for using app insights
-    twitterName: "Vagr9K",
+    twitterName: "JustJordanT",
     url: "https://gatsby-advanced-starter-demo.netlify.com", // Domain of your website without pathPrefix
     rss: "/rss.xml", // Path to the RSS file
     rssTitle: "Gatsby Advanced Starter RSS feed", // Title of the RSS feed
-    copyright: "© Copyright 2021 | Ruben Harutyunyan", // Copyright string for the footer of the website and RSS feed.
+    copyright: "© Copyright 2021 | Jordan Taylor", // Copyright string for the footer of the website and RSS feed.
     themeColor: "#D83850", // Used for setting manifest and progress theme colors.
     backgroundColor: "#F7F7F7", // Used for setting manifest background color.
   },
@@ -102,10 +102,10 @@ export const sampleSeoData: {
     id: "AdvancedUser",
     firstName: "First",
     lastName: "Last",
-    twitterName: "Vagr9K", // Twitter username used for SEO and rendering the "Follow me button"
-    email: "AdvancedUser@example.com", // Email used for RSS feed's author segment
+    twitterName: "JustJordanT", // Twitter username used for SEO and rendering the "Follow me button"
+    email: "JordanTay9014@outlook.com", // Email used for RSS feed's author segment
     about: "A full-stack web developer looking for a challenge!", // User information used for the author segment.
-    location: "A full-stack web developer looking for a challenge!", // User location used for SEO and for the author segment.
+    location: "A full-stack web developer looking for a challenge!", // Houston, TX used for SEO and for the author segment.
     avatar: "https://api.adorable.io/avatars/150/test.png", // User avatar
   },
 

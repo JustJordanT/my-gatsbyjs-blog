@@ -18,7 +18,7 @@ describe("component Disqus", () => {
 
     const newConfig = cloneDeep(configFixture);
     newConfig.website.disqusShortname =
-      "https-vagr9k-github-io-gatsby-advanced-starter";
+      "https-JustJordanT-github-io-gatsby-advanced-starter";
 
     mockedUseConfig.mockReturnValue(newConfig);
 

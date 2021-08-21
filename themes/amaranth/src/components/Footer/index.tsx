@@ -20,8 +20,8 @@ const Footer = (): JSX.Element => {
       <S.Info>
         <Caption>
           Based on{" "}
-          <AnimatedLink to="https://github.com/Vagr9K/gatsby-advanced-starter">
-            Gatsby Advanced Starter
+          <AnimatedLink to="https://github.com/JustJordanT/my-gatsbyjs-blog">
+            My-Gatsby-Blog
           </AnimatedLink>
         </Caption>
         <Caption>{config.website.copyright}</Caption>

@@ -41,7 +41,7 @@ describe("website layout", () => {
 
     // Verify that a footer segment exists, which indicates that the footer is rendered
     const copyrightNotice = await screen.findByText(
-      "© Copyright 2021 | Ruben Harutyunyan"
+      "© Copyright 2021 | Jordan Taylor"
     );
 
     expect(copyrightNotice).toBeInTheDocument();

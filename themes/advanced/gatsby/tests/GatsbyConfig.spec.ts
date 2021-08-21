@@ -30,10 +30,10 @@ describe("gatsbyConfig", () => {
     expect(gatsbyConfigRes1?.pathPrefix).toBe("/");
 
     const gatsbyConfigRes2 = gatsbyConfig({
-      pathPrefix: "/vagr9k/",
+      pathPrefix: "/JustJordanT/",
     } as config.SiteConfig);
 
-    expect(gatsbyConfigRes2?.pathPrefix).toBe("/vagr9k");
+    expect(gatsbyConfigRes2?.pathPrefix).toBe("/JustJordanT");
   });
 
   it("sets correct content and post directories", () => {
